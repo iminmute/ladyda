@@ -7,21 +7,18 @@
 
 ```
 .
-├── starter_template.py  — основной скрипт Python с решениями всех блоков
-├── otchet.xlsx          — отчет в Excel с multiple листами и форматированием
-├── vyruchka_po_kategoriyam.png  — бар-чарт: выручка по категориям
-├── vyruchka_po_mesyatsam.png    — линейный график: выручка по месяцам
-├── kanaly_pie.png               — пироговая диаграмма: каналы сбыта
-├── top10_tovar_vyruchka.png     — горизонтальный бар-чарт: топ-10 товаров по выручке
+├── starter_template.py  — основной скрипт Python 
+├── otchet.xlsx          — отчет в Excel 
+├── vyruchka_po_kategoriyam.png  — выручка по категориям
+├── vyruchka_po_mesyatsam.png    — выручка по месяцам
+├── kanaly_pie.png               — пироговая диаграмма
+├── top10_tovar_vyruchka.png     — топ-10 товаров по выручке
 └── data/                        — исходные данные
     ├── customers.csv
     ├── orders.csv
     ├── returns.csv
     └── products.xlsx
 ```
-
-## Выполненные блоки
-
 ### Блок 1. Загрузка и первичный осмотр
 - Загрузка 4-х файлов с данными (orders, customers, returns, products)
 - Вывод shapes, head(), dtypes, info(), describe() для каждой таблицы
